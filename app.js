@@ -1,8 +1,10 @@
-const fromEuroToDollar = function (valueEuro)
-{
-    let dolarValue = valueEuro * 1.2
-    return dolarValue;
-} 
+// declaramos una funcion con el mismo nombre "formEuroToDollar"
+const fromEuroToDollar = function(valueInEuro){
+    // convertimos el valor a dolares
+    let valueInDollar = valueInEuro * 1.2;
+    // retornamos el valor
+    return valueInDollar;
+}
 
 const fromDollarToYen = function (dolarValue)
 {
@@ -15,6 +17,8 @@ const fromYenToPound = function ()
     let poundValue = Math.round(yenValue * 0.8 / 127.9 );
     return poundValue;
 }
+
+
 
 
 const sum = (a,b) => {
